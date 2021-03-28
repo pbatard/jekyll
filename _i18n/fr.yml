@@ -1,0 +1,106 @@
+rufus:
+  version: Version
+  tagline: Créez facilement des clés USB démarrables
+  change_language: 'Changer de langue :'
+  improve_translation: Voulez-vous améliorer cette traduction ?
+  placeholder_for_ads: Espace réservé aux bandeaux publicitaires &mdash; Comme vous,
+    j'aimerais que ce site puisse exister sans publicité...
+  screenshot: rufus_fr.png
+  description: Rufus est un utilitaire permettant de formater et de créer des média
+    USB démarrables, tels que clés USB, mémoire flash,  etc.
+  use_case_header: 'Il est particulièrement utile pour les cas où :'
+  use_case_1: vous voulez créer un média d’installation USB à partir d’une image ISO
+    démarrable (Windows, Linux, UEFI, etc.)
+  use_case_2: vous voulez travailler sur une machine qui n’a pas de système d’exploitation
+    installé
+  use_case_3: vous voulez programmer un BIOS ou un autre type de firmware depuis DOS
+  use_case_4: vous voulez lancer un utilitaire de bas-niveau
+  small_size: En dépit de sa petite taille, Rufus fournit tout ce dont vous avez besoin
+    !
+  fast_speed: Oh, et Rufus est <b>rapide</b>. Par exemple, il est environ deux fois
+    plus rapide qu'<a target="_blank" %s>UNetbootin</a>, <a target="_blank" %s>Universal
+    USB Installer</a> ou <a target="_blank" %s>l'utilitaire Windows 7 USB</a>, pour
+    la création d'un média d'installation USB à partir d'une image ISO Windows 7.
+    Il est aussi marginalement plus rapide pour la création de média USB démarrables
+    Linux.
+  non_exhaustive_link: Une liste non-exhaustive d'images ISO supportées par Rufus
+    est fournie au bas de cette page.
+  download: Téléchargement
+  last_updated: 'Dernière mise à jour %s :'
+  MB: Mo
+  portable: Portable
+  other_versions: Autres versions
+  supported_languages: 'Langues supportées :'
+  system_requirements: 'Configuration minimale :'
+  minimum_os: Windows 7 ou supérieur, 32 ou 64 bit. Une fois téléchargée, l'application
+    est prête à être utilisée.
+  translators_thanks: Je profite de cette occasion pour exprimer ma gratitude aux
+    traducteurs qui permettent à Rufus, ainsi que cette page web, d'être traduits
+    dans plusieurs langues. Si vous pouvez désormais utiliser Rufus dans votre langue,
+    c'est eux qu'il faut remercier !
+  usage: Utilisation
+  no_install_needed: Téléchargez le fichier exécutable et lancez-le &ndash; aucune
+    installation n'est nécessaire.
+  digitally_signed: 'Le fichier exécutable est signé numériquement, et la signature
+    doit indiquer :'
+  v1_3_0_or_later: (v1.3.0 ou supérieure)
+  v1_2_0_or_earlier: (v1.2.0 ou antérieure)
+  dos_notes_hdr: 'Notes sur le support DOS :'
+  dos_notes: Si vous créez un disque démarrable USB avec un clavier non-US, Rufus
+    essaie de sélectionner une disposition de clavier qui correspond à la langue de
+    votre système. Dans ce cas, <a target="_blank" %s>FreeDOS</a>, qui est la sélection
+    par défaut, est recommandé vis-à-vis de MS-DOS, car il supporte plus de dispositions
+    de clavier.
+  iso_notes_hdr: 'Notes sur le support d''images ISO :'
+  iso_notes: Toutes les versions de Rufus, depuis la version 1.1.0, permettent la
+    création d'un média USB démarrable à partir d'une <a target="_blank" %s>image
+    ISO</a> (.iso).
+  iso_create: Si vous n'avez pas de fichier ISO, la création d'une telle image, à
+    partir d'un disque optique ou depuis un ensemble de fichiers, est facile à effectuer.
+    Vous pouvez juste utiliser l'une des nombreuses applications gratuites de gravure
+    CD ou DVD, telles que <a target="_blank" %s>InfraRecorder</a> ou <a target="_blank"
+    %s>CDBurnerXP</a>.
+  faq: Foire Aux Questions (FAQ)
+  faq_location: Un FAQ pour Rufus est disponible <b><a target="_blank" %s>ICI</a></b>
+    (en Anglais).
+  feedback: Si vous voulez soumettre un commentaire, un bug ou encore effectuer une
+    demande d'amélioration, veuillez utiliser le <a target="_blank" %s>système de
+    gestion d'incidents</a> de github. Ou bien, vous pouvez aussi <a target="_blank"
+    %s>envoyer un e-mail</a>.
+  license: Licence
+  gplv3: <a target="_blank" %s>GNU General Public License (GPL) version 3</a> ou ultérieure.
+  license_terms: Vous êtes libres de distribuer, modifier ou encore vendre ce logiciel,
+    tant que vous respectez la licence GPLv3.
+  minwg_env: Rufus est produit de manière 100% transparente, depuis son <a target="_blank"
+    %s>code source public</a>, en utilisant un environnement <a target="_blank" %s>MinGW32</a>.
+  changelog: Derniers changements (en Anglais)
+  source_code: Code Source
+  git_repo: 'Sinon, vous pouvez cloner le répertoire <a target="_blank" %s>git</a>
+    en utilisant :'
+  github_project: Pour plus d'information, veuillez consulter le <a target="_blank"
+    %s>projet github</a>.
+  dev_notes: Si vous êtes développeur, vous êtes cordialement invité à modifier Rufus
+    et soumettre des patchs.
+  donations: Donations
+  donations_1: Etant donné qu'on me pose régulièrement la question, vous constaterez
+    qu'il n'y a <b>pas</b> de bouton de donation sur cette page.
+  donations_2: La raison principale est que j'estime que le système de dons n'aide
+    pas vraiment le dévelopement logiciel et pire, peut être culpabilisant pour les
+    utilisateurs qui choisissent de ne pas donner.
+  donations_3: Si vous insistez vraiment, vous pouvez toujours effectuer une donation
+    à la <a target="_blank" %s>Free Software Foundation</a> (FSF), puisque c'est la
+    principale cause qui permet à des logiciels tels que Rufus d'exister.
+  donations_4: 'Dans tous le cas, je profite de cette opportunité pour vous <i><u>remercier</u></i>
+    de vos encouragements et surtout de votre enthousiasme vis-à-vis de ce petit programme
+    : Cela reste très apprécié !'
+  donations_5: Mais s'il vous plait, veuillez continuer à utiliser Rufus sans vous
+    sentir coupable de ne pas participer financièrement &ndash; vous ne devriez jamais
+    avoir besoin de le faire !
+  speed_comparison_hdr: Tests de vitesse entre Rufus et d'autres applications
+  speed_comparison: Les tests suivants ont été conduits depuis une machine Windows
+    7 x64 Core 2 duo avec 4Go de RAM, en utilisant un contrôleur USB 3.0 ainsi qu'un
+    <a target="_blank" %s>périphérique flash 16 Go USB 3.0 ADATA S102</a>.
+  non_exhaustive_list: Liste non-exhaustive d'images ISO supportées par Rufus
+  translator: English
+  usb_icon: Icône USB par
+  hosting_by: Hébergement par

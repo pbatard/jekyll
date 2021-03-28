@@ -18,21 +18,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Rufus
+email: pete@akeo.ie
+description: Rufus is a utility that helps format and create bootable USB flash drives, such as USB keys/pendrives, memory sticks, etc.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username: pbatard
 
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-multiple-languages-plugin
+
+# Localization settings
+languages: ["en", "en-IE", "fr"]
+exclude_from_localizations: [ "favicon.ico", "CNAME" ]
+#exclude_from_localizations: ["assets", "css", "favicon.ico", "images", "scripts", "CNAME" ]
+default_locale_in_subfolder: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
